@@ -1,7 +1,7 @@
 var elBtn = document.querySelector(".btn");
 var elNav = document.querySelector(".sitenav")
 
-
+ 
 elBtn.addEventListener("click", function () {
 elBtn.closest(".header").classList.toggle("show");
 });
